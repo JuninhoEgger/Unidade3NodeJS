@@ -35,7 +35,7 @@ module.exports = class Account {
     }
 
     createAccount() {
-        console.log(this.chalk.green.bold("INFORME OS DADOS DA CONTA"))
+        console.log("INFORME OS DADOS DA CONTA")
         this.buildAccount()
     }
 
