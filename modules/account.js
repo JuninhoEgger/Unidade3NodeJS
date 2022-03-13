@@ -25,7 +25,7 @@ module.exports = class Account {
                         this.createAccount()
                         break;
                     case 'SAIR':
-                        console.log('OBRIGADO POR USAR O SISTEMA BANCÁRIO!')
+                        console.log('ATÉ MAIS, OBRIGADO POR UTILIZAR A APLICAÇÃO XPTO')
                         process.exit()
                         break;
                     default:
@@ -59,7 +59,7 @@ module.exports = class Account {
 
                 this.saveFile(answers)
 
-                console.log('GRAVADO COM SUCESSO!')
+                console.log('CONTA CRIADA COM SUCESSO')
                 this.main()
             })
             .catch((err) => {
